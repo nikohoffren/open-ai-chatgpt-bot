@@ -1,6 +1,6 @@
 # Open AI Chatbot
 
-Welcome to the Open AI Chatbot project! This project utilizes the Langchain library to implement a chatbot powered by the OpenAI API.
+This project utilizes the Langchain library to implement a chatbot to use with the files/directories on your local computer powered by the OpenAI API.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ To install the Langchain library, follow these steps:
 python3 -m venv myenv
 ```
 
-1. Activate the virtual environment:
+Activate the virtual environment:
 For Linux/macOS:
 
 ```shell
@@ -71,20 +71,20 @@ For Windows (PowerShell):
 
 You can run the Open AI Chatbot using the provided code snippet. Here's how:
 
-    Make sure you have activated your virtual environment (if applicable).
+1. Make sure you have activated your virtual environment (if applicable).
 
-    Run the chatgpt.py script:
+2. Run the chatgpt.py script:
 
-    shell
+```shell
 
     python chatgpt.py "your-query"
-
-    Replace "your-query" with the desired query or message you want the chatbot to respond to.
+```
+3. Replace "your-query" with the desired query or message you want the chatbot to respond to.
 
 ## Additional Notes
 
-    The Langchain library provides various functionalities for document loading, indexing, and working with OpenAI models. Feel free to explore its documentation for more advanced usage.
+The Langchain library provides various functionalities for document loading, indexing, and working with OpenAI models. Feel free to explore its documentation for more advanced usage.
 
-    Remember to manage your Docker environment if you encounter any issues related to Docker and Docker Compose.
+Remember to manage your Docker environment if you encounter any issues related to Docker and Docker Compose.
 
-    If you encounter any errors or have questions, please refer to the project's documentation or seek support from the Langchain community.
+If you encounter any errors or have questions, please refer to the project's documentation or seek support from the Langchain community.
