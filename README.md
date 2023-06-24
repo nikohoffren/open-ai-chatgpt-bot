@@ -20,7 +20,7 @@ To install the Langchain library, follow these steps:
 python3 -m venv myenv
 ```
 
-Activate the virtual environment:
+3. Activate the virtual environment:
 For Linux/macOS:
 
 ```shell
